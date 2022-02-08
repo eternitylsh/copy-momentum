@@ -12,7 +12,9 @@ const chosenbg = images[Math.floor(Math.random() * images.length)]
 
 
 const bgImage = `url(img/${chosenbg})`
-document.body.style.backgroundImage = bgImage
-document.body.style.backgroundSize = cover
+const bodystyle = document.body.style
+bodystyle.backgroundImage = bgImage
+bodystyle.backgroundSize = "auto auto"
+bodystyle.backgroundRepeat = "no-repeat"
     // document.body.appendChild(bgImage)
     // perpend function add last-element.
