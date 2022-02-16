@@ -2,10 +2,6 @@ const clock = document.querySelector("#clock")
 const formatNumCount = 2
 const fillClockNum = '0'
 
-const sayHello = () => {
-    console.log("hello")
-}
-
 // padstart : set format two num >> 2, '0' ex) 00:00
 const getClock = () => {
     const date = new Date()
